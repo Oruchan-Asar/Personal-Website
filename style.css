@@ -3,7 +3,7 @@
     flex-wrap: wrap;
 }
 
-h1 {
+#name {
     color: black;
     size: 20px;
     padding-top: 50px;
@@ -15,7 +15,7 @@ body {
     padding: 50px;
 }
 
-img {
+#photo {
     shape-outside: circle;
     width: 150px;
     height: 150px;
