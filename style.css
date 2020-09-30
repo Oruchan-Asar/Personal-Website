@@ -1,16 +1,18 @@
 h1 {
-    color: white;
+    color: black;
     size: 20px;
     padding-top: 50px;
 }
 
 body {
-    background-color: grey;
-    align-items: center;
+    background-color: rgb(0, 195, 255);
+    text-align: center;
+    padding: 50px;
 }
 
 img {
+    shape-outside: circle;
     width: 150px;
     height: 150px;
-    padding: 20px;
+    padding-top: 50px;
 }
