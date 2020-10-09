@@ -1,3 +1,17 @@
+}
+#photo {
+    margin-bottom: 156px;
+    shape-outside: circle;
+    width: 150px;
+    height: 150px;
+    padding-top: 50px;
+    box-align: center;
+}
+
+body {
+    padding-top: 3.375rem;
+    color: #6c757d;
+}
 
 body {
     margin: 0;
