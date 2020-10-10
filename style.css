@@ -9,7 +9,7 @@ section.resume-section {
 }
 
 img {
-    margin-bottom: 156px;
+    margin-bottom: 15px;
     shape-outside: circle;
     width: 150px;
     height: 150px;
@@ -24,7 +24,7 @@ body {
 
 body {
     margin: 0;
-    font-family: "Muli", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Muli", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
