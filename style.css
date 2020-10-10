@@ -89,11 +89,9 @@ img {
 body {
     padding-top: 3.375rem;
     color: #6c757d;
-}
-
-body {
     margin: 0;
-    font-family: "Muli", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding: 0;
+    font-family: Arial, sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -102,13 +100,13 @@ body {
     background-color: #6c757d;
 }
 
-body {
-    margin: 0;
-    padding: 0;
+.container {
+    text-align: center;
+    margin-top: 360px;
 }
 
 .btn {
-    border: 1 solid #3498db;
+    border: 1px solid #3498db;
     background: none;
     padding: 10px 20px;
     font-size: 20px;
