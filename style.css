@@ -99,20 +99,20 @@ body {
     background-color: #fff;
 }
 
-.name {
+.name, .lastname {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-size:24px;
-    font-weight: 64;
+    font-size: 32px;
+    font-weight: 76;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: gray;
 }
 
 .name::before {
-    content: 'oruchan asar';
+    content: 'oruchan';
     color: black;
     position: absolute;
     width: 0;
@@ -120,7 +120,16 @@ body {
     transition: 0.9s;
 }
 
-.name:hover::before {
+.lastname::before {
+    content: 'asar';
+    color: black;
+    position: absolute;
+    width: 0;
+    overflow: hidden;
+    transition: 0.9s;
+}
+
+.name:hover::before, .lastname:hover::before {
     width: 100%;
 }
 
