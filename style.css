@@ -82,7 +82,7 @@ img {
     shape-outside: circle;
     width: 150px;
     height: 150px;
-    padding-top: 50px;
+    padding-top: 150px;
     box-align: center;
 }
 
@@ -102,6 +102,7 @@ body {
 .container {
     text-align: center;
     margin-top: 360px;
+    margin-bottom: 20px;
 }
 
 .btn {
