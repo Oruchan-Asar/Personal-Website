@@ -99,7 +99,7 @@ body {
     background-color: #fff;
 }
 
-.text {
+.name {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -111,7 +111,7 @@ body {
     color: gray;
 }
 
-text::before {
+.name::before {
     content: 'oruchan asar';
     color: black;
     position: absolute;
@@ -120,7 +120,7 @@ text::before {
     transition: 0.9s;
 }
 
-.text:hover::before {
+.name:hover::before {
     width: 100%;
 }
 
