@@ -187,3 +187,8 @@ body {
 .btn1:hover::before {
     height: 180%;
 }
+
+.description {
+    top: 200px;
+    left: 50%;
+}
