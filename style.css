@@ -99,10 +99,18 @@ body {
     background-color: #fff;
 }
 
-.name, .lastname {
-    position: absolute;
+.name {
     top: 150px;
     left: 50%;
+}
+
+.lastname {
+    top: 170px;
+    left: 50%;
+}
+
+.name, .lastname {
+    position: absolute;
     transform: translate(-50%,-50%);
     font-size: 32px;
     font-weight: 76;
