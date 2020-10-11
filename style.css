@@ -102,8 +102,8 @@ body {
 .name, .lastname {
     position: absolute;
     transform: translate(-50%,-50%);
-    font-size: 32px;
-    font-weight: 150;
+    font-size: 52px;
+    font-weight: 400;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: gray;
