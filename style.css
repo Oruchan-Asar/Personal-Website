@@ -99,6 +99,16 @@ body {
     background-color: #fff;
 }
 
+.name {
+    top: 320px;
+    left: 50%;
+}
+
+.lastname {
+    top: 370px;
+    left: 50%;
+}
+
 .name, .lastname {
     position: absolute;
     transform: translate(-50%,-50%);
@@ -176,4 +186,9 @@ body {
 
 .btn1:hover::before {
     height: 180%;
+}
+
+.description {
+    top: 400px;
+    left: 50%;
 }
