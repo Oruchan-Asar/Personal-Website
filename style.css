@@ -99,21 +99,11 @@ body {
     background-color: #fff;
 }
 
-.name {
-    top: 150px;
-    left: 50%;
-}
-
-.lastname {
-    top: 170px;
-    left: 50%;
-}
-
 .name, .lastname {
     position: absolute;
     transform: translate(-50%,-50%);
     font-size: 32px;
-    font-weight: 76;
+    font-weight: 150;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: gray;
@@ -186,9 +176,4 @@ body {
 
 .btn1:hover::before {
     height: 180%;
-}
-
-.description {
-    top: 200px;
-    left: 50%;
 }
