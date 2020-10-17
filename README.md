@@ -1,2 +1,2 @@
-# anakobra159.github.io
-Developing my personal web page!
+# oruchanasar.github.io
+Creating and developing my personal web page!
