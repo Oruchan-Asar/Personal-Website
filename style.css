@@ -187,8 +187,3 @@ body {
 .btn1:hover::before {
     height: 180%;
 }
-
-p {
-    text-align: center;
-    top: 400px;
-}
