@@ -7,5 +7,5 @@ image.addEventListener("mouseover", function(){
 
 image.addEventListener("mouseout", function(){
     this.style = ""
-    this.width = ""
+    this.width = "100"
 });
