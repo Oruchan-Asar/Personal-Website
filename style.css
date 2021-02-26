@@ -79,12 +79,11 @@ section.resume-section {
 
 img {
     margin-bottom: 15px;
-    shape-outside: circle;
     width: 150px;
     height: 150px;
     padding-top: 50px;
     box-align: center;
-    border-radius: 50% 50%;
+    border-radius: 50%;
 }
 
 body {
@@ -98,6 +97,39 @@ body {
     color: #212529;
     text-align: center;
     background-color: #fff;
+
+    transition: background 0.3s linear,
+    color 0.3s linear;
+}
+
+body.dark {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.toggle-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+label {
+    background-color: #1f1f1f;
+    border-radius: 50%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.3s linear;
+}
+
+body.dark label {
+    background-color: white;
+}
+
+input {
+    visibility: hidden;
 }
 
 .name {
